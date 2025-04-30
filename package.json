@@ -1,0 +1,17 @@
+{
+  "name": "progressive-overload-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd progressive-overload-tracker && npm run dev",
+    "build": "cd progressive-overload-tracker && npm run build",
+    "start": "cd progressive-overload-tracker && npm run start",
+    "lint": "cd progressive-overload-tracker && npm run lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
